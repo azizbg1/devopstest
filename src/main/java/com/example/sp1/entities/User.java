@@ -26,7 +26,7 @@ public class User implements Serializable {
     private String lastName;
     @Enumerated(EnumType.STRING)
     Role role;
-
+//hhhhhhhhh
     @ManyToMany
     Set<Project> projects ;
 
